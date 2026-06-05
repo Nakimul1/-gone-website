@@ -1065,7 +1065,7 @@
   const launchSupply = 1_000_000_000;
   const finalitySupply = 10_000_000;
   const dailyDecayRate = 0.0125; // 1.25% per day
-  const daysPassed = 0; // ← Set to 0 at launch
+  const daysPassed = 0; // Launch date: 2026-06-05T17:40:48Z
 
   // Current supply based on exponential decay
   let currentSupply = launchSupply * Math.pow(1 - dailyDecayRate, daysPassed);
@@ -1094,7 +1094,7 @@
 
   // ── COUNTDOWN TIMER — set your Finality date here
   // ← IMPORTANT: Set LAUNCH_DATE to your exact launch datetime before uploading
-  const LAUNCH_DATE = new Date("2025-06-10T00:00:00Z"); // REPLACE with real launch date
+  const LAUNCH_DATE = new Date("2026-06-05T17:40:48Z"); // Genesis timestamp: 1780681248
   const FINALITY_DATE = new Date(LAUNCH_DATE);
   FINALITY_DATE.setFullYear(FINALITY_DATE.getFullYear() + 1);
 
