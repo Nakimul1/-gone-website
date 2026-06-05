@@ -1,0 +1,18 @@
+{
+  "name": "GONE",
+  "symbol": "GONE",
+  "description": "$GONE burns 1.25% of its vault daily via an on-chain Anchor program. No team intervention. No discretion. 364 days until it's gone.",
+  "image": "https://raw.githubusercontent.com/Nakimul1/-gone-website/main/gone-logo-500x500.png",
+  "external_url": "https://gonetoken.com",
+  "twitter": "https://x.com/jeekohq",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/Nakimul1/-gone-website/main/gone-logo-500x500.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "fungible"
+  }
+}
