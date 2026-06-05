@@ -1066,7 +1066,8 @@
   const launchSupply = 1_000_000_000;
   const finalitySupply = 10_000_000;
   const dailyDecayRate = 0.0125; // 1.25% per day
-  const daysPassed = 0; // Launch date: 2026-06-05T17:40:48Z
+  const launchDate = new Date('2026-06-05T17:40:48Z');
+const daysPassed = Math.max(0, (Date.now() - launchDate.getTime()) / (1000 * 60 * 60 * 24)); // Launch date: 2026-06-05T17:40:48Z
 
   // Current supply based on exponential decay
   let currentSupply = launchSupply * Math.pow(1 - dailyDecayRate, daysPassed);
